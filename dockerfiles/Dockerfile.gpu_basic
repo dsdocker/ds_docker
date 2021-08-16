@@ -32,8 +32,14 @@ RUN conda install python=3.8
 RUN conda install -c conda-forge jupyterhub ipywidgets
 RUN conda install notebook
 
+# tensorflow-gpu
+RUN conda install -c anaconda tensorflow-gpu
+
 # pytorch
 RUN conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c conda-forge
+
+#
+RUN conda install -c conda-forge tensorboard tensorboardx matplotlib
 
 # Create an user.
 ARG user
