@@ -1,4 +1,4 @@
-if [ "$#" -ne 1 ]; then
+if [ "$#" -ne 2 ]; then
     echo "Illegal number of parameters"
     echo "run_only.sh dockertag teamnum"
     exit 2
