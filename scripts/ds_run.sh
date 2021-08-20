@@ -3,9 +3,9 @@ if [ "$#" -ne 1 ]; then
     exit 2
 fi
 
-CPU='12'
-MEM='128GB'
-MEMANDSWAP='144GB'
+CPU='16'
+MEM='144GB'
+MEMANDSWAP='160GB'
 GPUS=("0,1,2" "3,4,5")
 
 # Team mapping
